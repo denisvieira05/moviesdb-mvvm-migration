@@ -1,4 +1,4 @@
-package com.example.comics.repository
+package com.example.comics.data
 
 import retrofit2.Retrofit
 import retrofit2.await
@@ -14,5 +14,6 @@ class Repository {
             ts = "1682982412",
             hash = "3482f01e9bf207a437a4b621c91339ad"
         ).await()
+
 
 }
